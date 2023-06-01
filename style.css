@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+* {
+       margin: 0;
+       padding: 0;
+   }
+
+   body {
+       overflow-x: hidden;
+       overflow-y: hidden;
+       background-color: rgb(39, 44, 67);
+   }
+
+   #name {
+       position:  relative;
+       background-color: rgb(255, 255, 255);
+       width: fit-content;
+       border-radius: 5px;
+       padding-top: 25%;
+       font-size: 1rem;
+
+   }
+
+   .card02{
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    margin: 0;
+    padding-left: 50px;
+  }
+
+
+
+   svg path {
+       cursor: pointer;
+   }
+
+
+svg{
+  height: 600px;
+  width: auto;
+  padding-top: 50px;
+}
+
+.container{
+  margin: 0;
+}
+
+
+.row1, .row2, .row3{
+  width: 100%;
+  display: flex;
+
+  flex-wrap: nowrap;
+}
+
+/* NOTE: CSS for the header secton */
+
+.card01{
+  background: grey;
+  position: relative;
+  flex: 1;
+  max-width: 22%;
+  height: 60px;
+  margin: 0;
+  border-radius: 10px;
+padding-left: 50px;
+}
+
+#pageheader_p {
+  padding-top: 10px;
+
+}
+
+.infotable{
+  width: 300px;
+  height: 310px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: white;
+  border: 5px solid black;
+  border-image-repeat: stretch;
+  border-radius: 5px;
+}
